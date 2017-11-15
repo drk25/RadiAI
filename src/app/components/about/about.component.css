@@ -1,0 +1,16 @@
+.mat-card-image1 {
+  border-radius: 50%;
+  margin: auto;
+
+}
+.mat-card-image2 {
+  border-radius: 50%;
+  margin: auto;
+
+}
+.mat-card {
+  align-content: center;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}

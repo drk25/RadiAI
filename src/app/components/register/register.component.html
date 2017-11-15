@@ -1,0 +1,23 @@
+
+<mat-card>
+  <form (submit)="onLoginSubmit()">
+    <mat-card-title class="text-center">Register</mat-card-title>
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="First Name" type="text" [(ngModel)]="firstName" name="username" required>
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Last Name" type="text" [(ngModel)]="lastName" name="username" required>
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Email" type="text" [(ngModel)]="email" name="username" required>
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Username" type="text" [(ngModel)]="username" name="username" required>
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Password" type="password" [(ngModel)]="password" name="password" required>
+    </mat-form-field>
+    <button mat-raised-button class="mat-raised mat-primary" routerLink="/dashboard">Submit</button>
+    <button mat-raised-button class="mat-raised mat-warn" routerLink="/register">Cancel</button>
+  </form>
+</mat-card>
